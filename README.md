@@ -7,7 +7,7 @@ dataset.
 ## Files
 
 - `plot_style.py` - shared plotting setup: loads Times New Roman, saves figures as EPS at 600 DPI
-- `perceptron.py` - the Perceptron class (Task 4)
+- `perceptron.py` - the Perceptron class 
 - `1_data_exploration.py` - load data, check shape/missing values/stats 
 - `2_eda.py` - histograms, correlation heatmap, scatter plot, boxplots 
 - `3_preprocessing.py` - normalize features, 80/20 split, saves arrays to `outputs/saved_model/` 
