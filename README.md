@@ -8,14 +8,14 @@ dataset.
 
 - `plot_style.py` - shared plotting setup: loads Times New Roman, saves figures as EPS at 600 DPI
 - `perceptron.py` - the Perceptron class (Task 4)
-- `1_data_exploration.py` - load data, check shape/missing values/stats (Task 1)
-- `2_eda.py` - histograms, correlation heatmap, scatter plot, boxplots (Task 2)
-- `3_preprocessing.py` - normalize features, 80/20 split, saves arrays to `outputs/saved_model/` (Task 3)
-- `4_train_perceptron.py` - trains the perceptron, saves weights + training plots (Task 5)
-- `5_evaluate.py` - accuracy/precision/recall/F1/confusion matrix on test set (Task 6)
-- `6_learning_rate_comparison.py` - compares lr = 0.001, 0.01, 0.1 (Task 7)
-- `7_sklearn_comparison.py` - compares against sklearn's Perceptron (optional)
-- `8_decision_boundary.py` - plots the decision boundary using variance and skewness only (optional)
+- `1_data_exploration.py` - load data, check shape/missing values/stats 
+- `2_eda.py` - histograms, correlation heatmap, scatter plot, boxplots 
+- `3_preprocessing.py` - normalize features, 80/20 split, saves arrays to `outputs/saved_model/` 
+- `4_train_perceptron.py` - trains the perceptron, saves weights + training plots 
+- `5_evaluate.py` - accuracy/precision/recall/F1/confusion matrix on test set 
+- `6_learning_rate_comparison.py` - compares lr = 0.001, 0.01, 0.1 
+- `7_sklearn_comparison.py` - compares against sklearn's Perceptron 
+- `8_decision_boundary.py` - plots the decision boundary using variance and skewness only 
 - `9_normalization_comparison.py` - trains with and without normalization on the same split, plots both training error curves side by side 
 
 
