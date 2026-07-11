@@ -16,10 +16,8 @@ dataset.
 - `6_learning_rate_comparison.py` - compares lr = 0.001, 0.01, 0.1 (Task 7)
 - `7_sklearn_comparison.py` - compares against sklearn's Perceptron (optional)
 - `8_decision_boundary.py` - plots the decision boundary using variance and skewness only (optional)
-- `9_normalization_comparison.py` - trains with and without normalization on the same split, plots both training error curves side by side (Additional Task 5)
+- `9_normalization_comparison.py` - trains with and without normalization on the same split, plots both training error curves side by side 
 
-All figures are saved as `.eps` at 600 DPI, in Times New Roman, with
-axis labels and a legend on every plot.
 
 ## Figure font (Colab only, run once)
 
@@ -38,7 +36,7 @@ and prints a warning instead of failing.
 
 ## How to run
 
-Run them in order, each one on its own:
+Run them in order:
 
 ```bash
 pip install -r requirements.txt
@@ -54,13 +52,6 @@ python 8_decision_boundary.py
 python 9_normalization_comparison.py
 ```
 
-Scripts 4 onwards need `3_preprocessing.py` to have run first, since
-they load `X_train.npy` / `X_test.npy` / `y_train.npy` / `y_test.npy`
-from `outputs/saved_model/`. Script 5 needs `4_train_perceptron.py`
-to have run first (it loads the saved weights/bias). Script 8 needs
-`3_preprocessing.py` to have run first as well. Script 9 does not,
-it reads `data/banknote_authentication.csv` directly and builds both
-the raw and normalized versions itself, so the comparison is fair.
 
 Plots land in `outputs/plots/`, saved arrays in `outputs/saved_model/`.
 
